@@ -1,0 +1,121 @@
+#landing {
+    text-align: center;
+    text-size-adjust: 10px;
+   background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url("./images/code1.gif");
+    background-size: cover; 
+    color: white;
+}
+
+.rounded-img {
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#logo {
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:black;
+
+ }
+
+nav a {
+
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:black; !important;
+}
+
+#projects {
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    max-height: 180px;
+    object-fit: cover;
+
+}
+   
+#tools {
+    background-color: whitesmoke;
+}
+
+.toolsadjust, .frontendadjust, .mernadjust, .othertoolsadjust {
+    font-weight: bold;
+}
+
+.frontendadjust {
+    margin-top: auto;
+}
+
+.responsive-img {
+    width: 30px;
+    height: 30px;
+}
+/* Contact Section Styling */
+#contacts {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.icon-container {
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 0 20px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.submit {
+    width: 100%;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        text-align: center;
+    }
+}
